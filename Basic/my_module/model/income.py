@@ -15,4 +15,3 @@ class IncomeSchema(TransactionSchema):
     @post_load
     def make_income(self, data):
         return Income(**data)
-    

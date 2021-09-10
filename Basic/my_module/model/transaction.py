@@ -19,5 +19,3 @@ class TransactionSchema(Schema):
     amount = fields.Number()
     created_at = fields.Date()
     type = fields.Str()
-    
-    
