@@ -48,4 +48,4 @@ def add_expense():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()   # Debug mode should never be used in a production environment!
